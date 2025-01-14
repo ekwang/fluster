@@ -337,6 +337,16 @@ class GStreamerV4l2H265Gst10Decoder(GStreamer10Video):
 
 
 @register_decoder
+class GStreamerwebOSV4l2H265Gst10Decoder(GStreamer10Video):
+    """GStreamer webOS H.265 V4L2 stateful decoder implementation for GStreamer 1.0"""
+
+    codec = Codec.H265
+    decoder_bin = " webosv4l2h265dec "
+    api = "V4L2"
+    provider = "webOS-GStreamer"
+
+
+@register_decoder
 class GStreamerVaapiH264Gst10Decoder(GStreamer10Video):
     """GStreamer H.264 VAAPI decoder implementation for GStreamer 1.0"""
 
@@ -418,6 +428,16 @@ class GStreamerV4l2H264Gst10Decoder(GStreamer10Video):
 
 
 @register_decoder
+class GStreamerwebOSV4l2H264Gst10Decoder(GStreamer10Video):
+    """GStreamer webOS H.264 V4L2 stateful decoder implementation for GStreamer 1.0"""
+
+    codec = Codec.H264
+    decoder_bin = " webosv4l2h264dec "
+    api = "V4L2"
+    provider = "webOS-GStreamer"
+
+
+@register_decoder
 class GStreamerVulkanH264Gst10Decoder(GStreamer10Video):
     """GStreamer H.264 Vulkan stateless decoder implementation for GStreamer 1.0"""
 
@@ -451,6 +471,16 @@ class GStreamerV4l2VP8Gst10Decoder(GStreamer10Video):
     codec = Codec.VP8
     decoder_bin = " v4l2vp8dec "
     api = "V4L2"
+
+
+@register_decoder
+class GStreamerwebOSV4l2VP8Gst10Decoder(GStreamer10Video):
+    """GStreamer webOS VP8 V4L2 stateful decoder implementation for GStreamer 1.0"""
+
+    codec = Codec.VP8
+    decoder_bin = " webosv4l2vp8dec "
+    api = "V4L2"
+    provider = "webOS-GStreamer"
 
 
 @register_decoder
@@ -526,6 +556,16 @@ class GStreamerV4l2VP9Gst10Decoder(GStreamer10Video):
 
 
 @register_decoder
+class GStreamerwebOSV4l2VP9Gst10Decoder(GStreamer10Video):
+    """GStreamer webOS VP9 V4L2 stateful decoder implementation for GStreamer 1.0"""
+
+    codec = Codec.VP9
+    decoder_bin = " webosv4l2vp9dec "
+    api = "V4L2"
+    provider = "webOS-GStreamer"
+
+
+@register_decoder
 class GStreamerVaAV1Gst10Decoder(GStreamer10Video):
     """GStreamer AV1 VA decoder implementation for GStreamer 1.0"""
 
@@ -541,6 +581,16 @@ class GStreamerV4l2CodecsAV1Gst10Decoder(GStreamer10Video):
     codec = Codec.AV1
     decoder_bin = " v4l2slav1dec "
     api = "V4L2SL"
+
+
+@register_decoder
+class GStreamerwebOSV4l2CodecsAV1Gst10Decoder(GStreamer10Video):
+    """GStreamer webOS AV1 V4L2 stateful decoder implementation for GStreamer 1.0"""
+
+    codec = Codec.AV1
+    decoder_bin = " webosv4l2av1dec "
+    api = "V4L2"
+    provider = "webOS-GStreamer"
 
 
 @register_decoder

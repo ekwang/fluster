@@ -247,6 +247,7 @@ H.264
     JCT-VT-H.264: JCT-VT H.264/AVC reference decoder
     VKVS-H.264: Vulkan Video Samples H.264 decoder
     ccdec-H.264: H.264 cros-codecs decoder
+    webOS-GStreamer-H.264-V4L2-Gst1.0: webOS-GStreamer H.264 V4L2 decoder for GStreamer 1.0
 
 Dummy
     Dummy: This is a dummy implementation for the dummy codec
@@ -266,6 +267,7 @@ AV1
     ccdec-AV1: AV1 cros-codecs decoder
     dav1d-AV1: dav1d AV1 decoder
     libaom-AV1: libaom AV1 reference decoder
+    webOS-GStreamer-AV1-V4L2-Gst1.0: webOS-GStreamer AV1 V4L2 decoder for GStreamer 1.0
 
 H.265
     FFmpeg-H.265: FFmpeg H.265 SW decoder
@@ -297,6 +299,7 @@ H.265
     JCT-VT-H.265: JCT-VT H.265/HEVC reference decoder
     VKVS-H.265: Vulkan Video Samples H.265 decoder
     ccdec-H.265: H.265 cros-codecs decoder
+    webOS-GStreamer-H.265-V4L2-Gst1.0: webOS-GStreamer H.265 V4L2 decoder for GStreamer 1.0
 
 H.266
     FFmpeg-H.266: FFmpeg H.266 SW decoder
@@ -322,6 +325,7 @@ VP8
     GStreamer-VP8-libvpx-Gst1.0: GStreamer VP8 libvpx decoder for GStreamer 1.0
     ccdec-VP8: VP8 cros-codecs decoder
     libvpx-VP8: VP8 reference decoder
+    webOS-GStreamer-VP8-V4L2-Gst1.0: webOS-GStreamer VP8 V4L2 decoder for GStreamer 1.0
 
 VP9
     FFmpeg-VP9: FFmpeg VP9 SW decoder
@@ -341,6 +345,7 @@ VP9
     GStreamer-VP9-libvpx-Gst1.0: GStreamer VP9 libvpx decoder for GStreamer 1.0
     ccdec-VP9: VP9 cros-codecs decoder
     libvpx-VP9: VP9 reference decoder
+    webOS-GStreamer-VP9-V4L2-Gst1.0: webOS-GStreamer VP9 V4L2 decoder for GStreamer 1.0
 
 AAC
     Fluendo-AAC-SW-Gst1.0: Fluendo AAC SW decoder for GStreamer 1.0
